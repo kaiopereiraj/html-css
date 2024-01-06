@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.icones {
+    width: 25px;
+    height: 25px;
+}

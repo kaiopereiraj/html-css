@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixa</title>
+    <style>
+        h1 {
+            background-color: #add8e6;
+            height: 300px;
+            width: 300px;
+
+            font: italic normal 2em Arial, Helvetica, 'sans-serif';
+
+            /* Usando shorthand */
+
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: #a00000; */
+
+            border: 10px solid #a00000;
+            
+            /* 
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; 
+
+            Sempre usar essa ordem na shorthand
+
+            *Se usar duas medidas vai ser a configuração de cima-baixo e direita-esquerda
+            */
+
+            padding: 10px;
+
+            /* 
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; 
+            */
+
+            margin: 20px 20px 40px;
+
+            /* 
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: #9400d3; 
+            */
+
+            outline: 5px dashed #9400d3;
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: #ff4800;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Paragrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixa inline-level</a>. Vamos ver como isso funciona</p>
+</body>
+</html>

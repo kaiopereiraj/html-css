@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font: 1em Arial, Helvetica, 'sans-serif';
+            background-color: #aaa;
+            margin: 0;
+        }
+
+        header {
+            background-color: #fff;
+            padding-left: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: 2px 1px 14px 6px #00000060;
+        }
+
+        nav {
+            background-color: #aaa;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px #00000070;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px ;
+            box-shadow: 4px 4px 4px #00000080;
+        }
+
+        article {
+            background-color: #ccc;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: #aaa;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 3px;
+            margin: 0;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: #fff;
+            margin: 20px auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section class="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quibusdam voluptates error molestiae ad cum, velit animi vel magni natus dignissimos assumenda enim reiciendis qui est aut possimus repellendus sint itaque! Tempore harum reiciendis vero eius laborum dignissimos voluptatem excepturi voluptatum suscipit. Ab amet incidunt necessitatibus quia eveniet debitis asperiores.</p>
+                <aside>
+                    <p>Artigo escrito por Joaquim Francisco de Souza</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Kaio Jesus&copy;</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

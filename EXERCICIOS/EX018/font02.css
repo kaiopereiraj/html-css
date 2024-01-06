@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'loves';
+    src: url('fonts/love larry ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /* 
+    Tipos de format()
+    -opentype(otf)
+    -truetype(ttf)
+    -embedded-opentype
+    -truetype-aat(apple advanced Typography
+    -svg
+    */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'loves', serif;
+    font-size: 3em;
+    font-weight: normal;
+}
