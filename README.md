@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
-<a href="https://kaiopereiraj.gihub.io/html-css/EXERCICIOS/EX001/index.html">Executar o ex001</a>  
+<a href="https://kaiopereiraj.gihub.io/html-css/EXERCICIOS/EX002/index.html">Executar o ex002</a>  
