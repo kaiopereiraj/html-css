@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+/* 
+
+Realizando desafio 11 do curso de HTML e CSS do cursoemvideo
+
+**Não deixei responsivo**
+
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -8,9 +16,25 @@
 
 body {
     height: 100vh;
+    width: 100vw;
     background-color: #b3d1f6;
 }
 
 .img-espaco {
-    background-image: url(espaco.jpg);
+    background: #000 url('imagens/espaco.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.img-astronauta {
+    background: url('imagens/astronauta.png') center center no-repeat;
+    background-size: cover;
+    height: 508px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
