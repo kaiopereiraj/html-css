@@ -52,7 +52,11 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font-03);
-    font-size: 3vw;
+    font-size: 3.2vw;
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 .normal {
@@ -62,7 +66,7 @@ section {
 
 .imagem {
     background: #525252;
-    color: #fff,
+    color: #fff;
 }
 
 .imagem > p {
@@ -71,6 +75,14 @@ section {
     padding: 10px;
 }
 
+
+#img01 {
+    background-image: url('../imagens/background001.jpg');
+}
+
+#img02 {
+    background-image: url('../imagens/background002.jpg');
+}
 
 .rodape {
     background-color: #000;
