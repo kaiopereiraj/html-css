@@ -29,7 +29,7 @@ body {
 }
 
 .img-astronauta {
-    background: url('imagens/astronauta.png') center center no-repeat;
+    background: url('imagens/astronauta.png') center center no-repeat fixed;
     background-size: cover;
     height: 508px;
     width: 500px;
